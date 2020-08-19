@@ -1,0 +1,117 @@
+<!-- <div class="photo-grid"> -->
+
+  <div class="photo-grid">
+    <div
+      class="card-pic card-tall card-wide"
+      style="background-image:url({{lilyAndDogs}})"
+      (click)="openModal(template, lilyAndDogs, 'My wife, our late pups Ramona and Bixby, and me. Bixby was our first rescue dog who we found in Hocking Hills.')"
+    >
+    </div>
+    <div
+      class="card-pic card-tall"
+      style="background-image:url('../../../../assets/IMG_0017.jpg')"
+      (click)="openModal(template, '../../../../assets/IMG_0017.jpg', 'My wife and I.')"
+    >
+    </div>
+    <div
+      class="card-pic card-tall"
+      style="background-image:url({{lilyAndMe}})"
+      (click)="openModal(template, lilyAndMe, 'At the beach.')"
+    >
+    </div>
+    <div
+      class="card-pic card-tall"
+      style="background-image:url({{meAndMrButt}})"
+      (click)="openModal(template, meAndMrButt, 'Mr. Butt going for an adventure.')"
+    >
+
+    </div>
+    <div
+      class="card-pic card-tall"
+      style="background-image:url({{ramona}})"
+      (click)="openModal(template, ramona, 'Sweetheart Ramona.')"
+    >
+    </div>
+    <div
+      class="card-pic card-tall"
+      style="background-image:url({{bixby}})"
+      (click)="openModal(template, bixby, 'Good boy Bixby.')"
+    >
+    </div>
+    <div
+      class="card-pic"
+      style="background-image:url({{mrButt}})"
+      (click)="openModal(template, mrButt, 'Mr. Butt enjoying a game of Carcassonne.')"
+    >
+    </div>
+    <div
+      class="card-pic card-tall"
+      style="background-image:url({{squittens}})"
+      (click)="openModal(template, squittens, 'Vivian and her brother Sebastian.')"
+    >
+    </div>
+    <div
+      class="card-pic card-tall"
+      style="background-image:url('../../../../assets/IMG_0019.jpg')"
+      (click)="openModal(template, '../../../assets/IMG_0019.jpg', 'Our latest rescue, Fable')"
+    >
+    </div>
+    
+  
+  <ng-template #template>
+    <div class="modal-header">
+      
+      <img src="{{source}}" alt="">
+      <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      
+    </div>
+    <div class="modal-body">
+      {{content}}
+    </div>
+  </ng-template>
+
+  <!-- <img style="height: 240px;" src="{{lilyAndDogs}}" alt="" class="image">
+  <img style="height: 240px;" src="{{meAndMrButt}}" alt="" class="image"> -->
+  
+  <!-- <div class="card"
+    style="background-image: url({{lilyAndDogs}});">
+  </div>
+  <div class="card card-tall"
+    style="background-image: url({{meAndMrButt}});">
+  </div>
+  <div class="card card-tall"
+    style="background-image: url({{lilyAndMe}});">
+  </div>
+  <div class="card"
+    style="background-image: url({{mrButt}});">
+  </div>
+  <div class="card card-tall"
+    style="background-image: url({{ramona}});">
+  </div>
+  <div class="card card-tall"
+    style="background-image: url({{bixby}});">
+  </div> -->
+
+  <!-- <app-image
+    [source]="lilyAndDogs">
+  </app-image>
+  <app-image
+    [source]="meAndMrButt"
+    [classes]="'card-tall'">
+  </app-image>
+  <app-image
+    [source]="lilyAndMe"
+    [classes]="'card-tall'">
+  </app-image>
+  <app-image [source]="mrButt"></app-image>
+  <app-image
+    [source]="ramona"
+    [classes]="cardTallClass">
+  </app-image>
+  <app-image
+    [source]="bixby">
+  </app-image>
+</div>
+ -->

@@ -1,0 +1,34 @@
+<nav class="navbar navbar-expand-md">
+  <div class="tabs row">
+    <div id="tab1"
+    [ngClass]="tabObjSel.tab1=='active' ? 'nav-tab-active' : ''"
+    (click)="clickATab($event)"
+    class="nav-tab">
+    About Me
+    </div>
+    <div id="tab2"
+    [ngClass]="tabObjSel.tab2=='active' ? 'nav-tab-active' : ''"
+    (click)="clickATab($event)"
+    class="nav-tab">
+    Photos
+    </div>
+    <div id="tab3"
+    [ngClass]="tabObjSel.tab3=='active' ? 'nav-tab-active' : ''"
+    (click)="clickATab($event)"
+    class="nav-tab">
+    Contact
+    </div>
+    <div id="tab4"
+    [ngClass]="tabObjSel.tab4=='active' ? 'nav-tab-active' : ''"
+    (click)="clickATab($event)"
+    class="nav-tab">
+    Info
+    </div>
+    <div id="tab5"
+    [ngClass]="tabObjSel.tab5=='active' ? 'nav-tab-active' : ''"
+    (click)="clickATab($event)"
+    class="nav-tab hidden-tab">
+    Skills
+    </div>
+  </div>
+</nav>

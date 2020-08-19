@@ -1,0 +1,24 @@
+<body (touchstart)="swipe($event, 'start')" (touchend)="swipe($event, 'end')">
+  <section class="basic-grid">
+    <div class="sidebar">
+      <app-sidebar></app-sidebar>
+    </div>
+    <div class="main">
+      <h1>Gregory Draheim</h1>
+      <div *ngIf="setTab==='tab1'">
+        <app-aboutme></app-aboutme>
+      </div>
+      
+      <div *ngIf="setTab==='tab2'">
+        <app-album></app-album>
+      </div>
+
+      <div *ngIf="setTab==='tab3'">
+        <app-contact></app-contact>
+      </div>
+      <div *ngIf="setTab==='tab4'">
+        <app-info></app-info>
+      </div>
+    </div>
+  </section>
+</body>
