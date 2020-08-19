@@ -257,6 +257,9 @@ strong {
   .hidden-tab {
     display: none !important;
   }
+  .footer-links-mob {
+    display: none;
+  }
   .nav-tab {
     padding-left: 20px;
     padding-right: 20px;
@@ -283,6 +286,12 @@ strong {
   .tabs {
     -ms-grid-columns: (1fr)[5];
         grid-template-columns: repeat(5, 1fr);
+  }
+  .footer {
+    height: 100%;
+  }
+  .footer-links-screen {
+    display: none;
   }
   .card {
     padding: 20px;

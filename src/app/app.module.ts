@@ -19,6 +19,7 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
 import { FooterComponent } from './parts/molecules/footer/footer.component';
 import { InfoComponent } from './parts/atoms/info/info.component';
 import { ContactComponent } from './contact/contact.component';
+import { SkillsComponent } from './parts/atoms/skills/skills.component';
 
 @NgModule({
    declarations: [
@@ -31,6 +32,7 @@ import { ContactComponent } from './contact/contact.component';
       ImageComponent,
       NavComponent,
       SidebarComponent,
+      SkillsComponent,
       AboutmeComponent,
       ContactComponent
    ],
