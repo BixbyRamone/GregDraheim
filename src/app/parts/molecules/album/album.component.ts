@@ -25,6 +25,10 @@ export class AlbumComponent implements OnInit {
   ramona = 'https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/70968263_10214806539252194_3256933288933064704_n.jpg?_nc_cat=100&_nc_sid=8bfeb9&_nc_ohc=uIrxT-WCBIgAX9AmI-7&_nc_ht=scontent-ort2-2.xx&oh=931c936432adef742f55eac134c22f34&oe=5F4BA522';
   // tslint:disable-next-line: max-line-length
   squittens = 'https://scontent-ort2-2.xx.fbcdn.net/v/t31.0-8/24068384_10210586144384960_4661597163249025715_o.jpg?_nc_cat=104&_nc_sid=8bfeb9&_nc_ohc=C8wqNIt5GLYAX_c6vyr&_nc_ht=scontent-ort2-2.xx&oh=adcb9a27f470d8e4809e2312fc7e3423&oe=5F4BB451';
+  // tslint:disable-next-line: max-line-length
+  dressedUp = 'https://photosgd.blob.core.windows.net/new/IMG_0017.jpg?sp=r&st=2020-08-19T11:25:42Z&se=2022-08-19T19:25:42Z&spr=https&sv=2019-12-12&sr=b&sig=X%2BAwLL1LxkfMJAnNA3OTNxrZVnPUJfbwa1%2BBHH%2BbGYo%3D';
+  // tslint:disable-next-line: max-line-length
+  fableAndMe = 'https://photosgd.blob.core.windows.net/new/IMG_0019.jpg?sp=r&st=2020-08-19T11:27:35Z&se=2022-08-19T19:27:35Z&spr=https&sv=2019-12-12&sr=b&sig=HKP3NIBYagRFZnVc6CytZlKmizEg40NQU%2Bb68ev5PNI%3D';
 
 
   cardTallClass = 'card-tall';

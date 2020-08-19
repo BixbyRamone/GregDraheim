@@ -9,8 +9,8 @@
     </div>
     <div
       class="card-pic card-tall"
-      style="background-image:url('../../../../assets/IMG_0017.jpg')"
-      (click)="openModal(template, '../../../../assets/IMG_0017.jpg', 'My wife and I.')"
+      style="background-image:url({{dressedUp}})"
+      (click)="openModal(template, dressedUp, 'My wife and I.')"
     >
     </div>
     <div
@@ -52,8 +52,8 @@
     </div>
     <div
       class="card-pic card-tall"
-      style="background-image:url('../../../../assets/IMG_0019.jpg')"
-      (click)="openModal(template, '../../../assets/IMG_0019.jpg', 'Our latest rescue, Fable')"
+      style="background-image:url({{fableAndMe}})"
+      (click)="openModal(template, fableAndMe, 'Our latest rescue, Fable')"
     >
     </div>
     
