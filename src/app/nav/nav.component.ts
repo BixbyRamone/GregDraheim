@@ -35,6 +35,11 @@ export class NavComponent implements OnInit {
     this.setAsActive(localStorage.getItem('lastTab'));
   }
 
+   // tslint:disable-next-line: use-lifecycle-interface
+   ngOnChanges(changes: SimpleChanges) {
+    !this.initiate ? this.swipe(changes.swiped.currentValue) : this.initiate = false;
+}
+
   swipe(newTab: string) {
     this.setAsActive(newTab);
    }
