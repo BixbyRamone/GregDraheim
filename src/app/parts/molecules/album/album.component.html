@@ -2,24 +2,28 @@
 
   <div class="photo-grid">
     <div
+        title="clickable photo"
       class="card-pic card-tall card-wide"
       style="background-image:url({{lilyAndDogs}})"
       (click)="openModal(template, lilyAndDogs, 'My wife, our late pups Ramona and Bixby, and me. Bixby was our first rescue dog who we found in Hocking Hills.')"
     >
     </div>
     <div
+      title="clickable photo"
       class="card-pic card-tall"
       style="background-image:url({{dressedUp}})"
       (click)="openModal(template, dressedUp, 'My wife and I.')"
     >
     </div>
     <div
+      title="clickable photo"
       class="card-pic card-tall"
       style="background-image:url({{lilyAndMe}})"
       (click)="openModal(template, lilyAndMe, 'At the beach.')"
     >
     </div>
     <div
+      title="clickable photo"
       class="card-pic card-tall"
       style="background-image:url({{meAndMrButt}})"
       (click)="openModal(template, meAndMrButt, 'Mr. Butt going for an adventure.')"
@@ -27,30 +31,35 @@
 
     </div>
     <div
+      title="clickable photo"
       class="card-pic card-tall"
       style="background-image:url({{ramona}})"
       (click)="openModal(template, ramona, 'Sweetheart Ramona.')"
     >
     </div>
     <div
+      title="clickable photo"
       class="card-pic card-tall"
       style="background-image:url({{bixby}})"
       (click)="openModal(template, bixby, 'Good boy Bixby.')"
     >
     </div>
     <div
+      title="clickable photo"
       class="card-pic"
       style="background-image:url({{mrButt}})"
       (click)="openModal(template, mrButt, 'Mr. Butt enjoying a game of Carcassonne.')"
     >
     </div>
     <div
+      title="clickable photo"
       class="card-pic card-tall"
       style="background-image:url({{squittens}})"
       (click)="openModal(template, squittens, 'Vivian and her brother Sebastian.')"
     >
     </div>
     <div
+      title="clickable photo"
       class="card-pic card-tall"
       style="background-image:url({{fableAndMe}})"
       (click)="openModal(template, fableAndMe, 'Our latest rescue, Fable')"
@@ -61,7 +70,7 @@
   <ng-template #template>
     <div class="modal-header">
       
-      <img src="{{source}}" alt="">
+      <img src="{{source}}" alt="{{content}}">
       <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
         <span aria-hidden="true">&times;</span>
       </button>

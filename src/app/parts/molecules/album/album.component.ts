@@ -8,23 +8,23 @@ import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
 })
 export class AlbumComponent implements OnInit {
   // tslint:disable-next-line: max-line-length
-  lilyAndDogs = 'https://scontent-ort2-2.xx.fbcdn.net/v/t31.0-8/20157643_10209753898619336_1730223676365427248_o.jpg?_nc_cat=102&_nc_sid=cdbe9c&_nc_ohc=YkwQnInUogkAX-nvewY&_nc_ht=scontent-ort2-2.xx&oh=71121e8e2c0902874f75b1abe6b74e91&oe=5F4D4412';
+  lilyAndDogs = 'https://photosgd.blob.core.windows.net/new/lilyanddogs.jpg?sp=r&st=2020-09-08T01:01:12Z&se=2022-09-08T09:01:12Z&spr=https&sv=2019-12-12&sr=b&sig=sAl5WnoLboI2PioP4FcGnpiA6Z%2F9GMDnq40TR6Mgvvs%3D';
   // tslint:disable-next-line: max-line-length
-  meAndMrButt = 'https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/72852166_10214943383153206_7220321494704848896_n.jpg?_nc_cat=106&_nc_sid=8bfeb9&_nc_ohc=AMQ2cuNpgyYAX-nSUX0&_nc_ht=scontent-ort2-2.xx&oh=126c1632fda18ae7c8f92c3b20e6055d&oe=5F4EA92E';
+  meAndMrButt = 'https://photosgd.blob.core.windows.net/new/memrbutt.jpg?sp=r&st=2020-09-08T00:57:19Z&se=2022-09-08T08:57:19Z&spr=https&sv=2019-12-12&sr=b&sig=RjBM6x8lItlsQbkELVNLXUEkpQ19uOKHKaDpKkhAFiU%3D';
   // tslint:disable-next-line: max-line-length
-  mrButt = 'https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/c191.0.540.540a/s851x315/13342977_10206562324271972_3192026328771628481_n.jpg?_nc_cat=105&_nc_sid=da31f3&_nc_ohc=LOH-608Xz5QAX9dIYdW&_nc_ht=scontent-ort2-2.xx&oh=dc4bf161d1f73dd0d3874b2a6f0fe243&oe=5F4E3850';
+  mrButt = 'https://photosgd.blob.core.windows.net/new/mrbutt.jpg?sp=r&st=2020-09-08T00:57:51Z&se=2022-09-08T08:57:51Z&spr=https&sv=2019-12-12&sr=b&sig=iKmxEZS%2BLqkfICO1IGGDte80TOcILdbAtJT3UP3jJkg%3D';
   // tslint:disable-next-line: max-line-length
-  lilyAndMe = 'https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/53769990_10213585064556090_1822287325850238976_n.jpg?_nc_cat=102&_nc_sid=8bfeb9&_nc_ohc=CtotarEb05IAX8_yvY8&_nc_ht=scontent-ort2-2.xx&oh=daa7ffd9b474a05eb6d9553f46831267&oe=5F4CF952';
+  lilyAndMe = 'https://photosgd.blob.core.windows.net/new/lilyandme.jpg?sp=r&st=2020-09-08T00:58:32Z&se=2022-09-08T08:58:32Z&spr=https&sv=2019-12-12&sr=b&sig=%2B41y34X1rtX9I2swboPWfjEo8kshQ3D9unWwyvUaEy0%3D';
   // tslint:disable-next-line: max-line-length
-  natashaAndFam = 'https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/36928154_10212074513193250_3318915718623264768_o.jpg?_nc_cat=107&_nc_sid=8bfeb9&_nc_ohc=Xh7nGibbbw0AX_mhc1n&_nc_ht=scontent-ort2-2.xx&oh=5156cc38987bbf45e14edec7783c1800&oe=5F4D5BA1';
+  natashaAndFam = 'https://photosgd.blob.core.windows.net/new/natashaandfam.jpg?sp=r&st=2020-09-08T00:58:54Z&se=2022-09-08T08:58:54Z&spr=https&sv=2019-12-12&sr=b&sig=VVsTQWy2Nd%2F0N8V86LmejNmivy02ap1%2B0AO5R4%2F42ow%3D';
   // tslint:disable-next-line: max-line-length
-  natasha = 'https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/29572634_10211467212011100_7264540269612622064_n.jpg?_nc_cat=101&_nc_sid=8bfeb9&_nc_ohc=28vvJMkPnzYAX-K8uVR&_nc_ht=scontent-ort2-2.xx&oh=32fc000250e7a3e56a3a51ce70541933&oe=5F4B1378';
+  natasha = 'https://photosgd.blob.core.windows.net/new/natasha.jpg?sp=r&st=2020-09-08T00:59:12Z&se=2022-09-08T08:59:12Z&spr=https&sv=2019-12-12&sr=b&sig=Vo05lwyXiJ8FtsV0QuwNAVvVnKQzQ0pyVCjsd4VqEV8%3D';
   // tslint:disable-next-line: max-line-length
-  bixby = 'https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/56408524_10213734268566097_9132891266500001792_n.jpg?_nc_cat=108&_nc_sid=8bfeb9&_nc_ohc=6qD1g-Q0DIcAX9YTk_e&_nc_ht=scontent-ort2-2.xx&oh=e277a50fa2102f5b54d0f69ef2b69970&oe=5F4CD609';
+  bixby = 'https://photosgd.blob.core.windows.net/new/bixby.jpg?sp=r&st=2020-09-08T00:54:41Z&se=2022-09-08T08:54:41Z&spr=https&sv=2019-12-12&sr=b&sig=fs2dImtMVH24Y%2F678ngUer30z7eBQ0vjZEUHix62ErE%3D';
   // tslint:disable-next-line: max-line-length
-  ramona = 'https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/70968263_10214806539252194_3256933288933064704_n.jpg?_nc_cat=100&_nc_sid=8bfeb9&_nc_ohc=uIrxT-WCBIgAX9AmI-7&_nc_ht=scontent-ort2-2.xx&oh=931c936432adef742f55eac134c22f34&oe=5F4BA522';
+  ramona = 'https://photosgd.blob.core.windows.net/new/ramonacar.jpg?sp=r&st=2020-09-08T01:00:05Z&se=2022-09-08T09:00:05Z&spr=https&sv=2019-12-12&sr=b&sig=hi0%2B2q938CgGCdeiJw89lDWf9Qc%2FIRAAqxd8P7h%2Bt%2FQ%3D';
   // tslint:disable-next-line: max-line-length
-  squittens = 'https://scontent-ort2-2.xx.fbcdn.net/v/t31.0-8/24068384_10210586144384960_4661597163249025715_o.jpg?_nc_cat=104&_nc_sid=8bfeb9&_nc_ohc=C8wqNIt5GLYAX_c6vyr&_nc_ht=scontent-ort2-2.xx&oh=adcb9a27f470d8e4809e2312fc7e3423&oe=5F4BB451';
+  squittens = 'https://photosgd.blob.core.windows.net/new/squittens.jpg?sp=r&st=2020-09-08T01:00:28Z&se=2022-09-08T09:00:28Z&spr=https&sv=2019-12-12&sr=b&sig=W78xzWUEiZVxyCJdFMJmdBDq5RmDuuH2LJcufCA5aFg%3D';
   // tslint:disable-next-line: max-line-length
   dressedUp = 'https://photosgd.blob.core.windows.net/new/IMG_0017.jpg?sp=r&st=2020-08-19T11:25:42Z&se=2022-08-19T19:25:42Z&spr=https&sv=2019-12-12&sr=b&sig=X%2BAwLL1LxkfMJAnNA3OTNxrZVnPUJfbwa1%2BBHH%2BbGYo%3D';
   // tslint:disable-next-line: max-line-length
